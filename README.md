@@ -17,28 +17,6 @@ The goal is to achieve at least **63% classification accuracy** on unseen test i
 
 ---
 
-## Dataset Structure
-The dataset is downloaded automatically in the notebook and has the following structure:
-
-cats_and_dogs/
-│
-├── train/
-│ ├── cats/ # Cat images for training
-│ └── dogs/ # Dog images for training
-│
-├── validation/
-│ ├── cats/ # Cat images for validation
-│ └── dogs/ # Dog images for validation
-│
-└── test/ # Unlabeled test images
-
-
-- Training set: 2000 images  
-- Validation set: 1000 images  
-- Test set: 50 images (no labels)
-
----
-
 ## Technologies Used
 - Python
 - TensorFlow 2.x
@@ -95,8 +73,9 @@ After training, the model:
 ---
 
 ## Status
-✅ Completed  
-📈 Further improvements possible with more data or tuning
+📈 Work in progress
+✅   
+
 
 ---
 
